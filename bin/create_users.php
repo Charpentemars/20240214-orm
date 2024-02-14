@@ -1,6 +1,6 @@
 <?php
-require 'vendor/autoload.php'; // Assurez-vous que le chemin est correct
-require_once "../bootstrap.php";
+require __DIR__ .  '/../vendor/autoload.php'; // Assurez-vous que le chemin est correct
+require_once __DIR__ . "/../bootstrap.php";
 use Faker\Factory;
 use OrmExample\User;
 use OrmExample\Role;
